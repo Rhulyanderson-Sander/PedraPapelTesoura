@@ -1,0 +1,19 @@
+h1, h3{
+    text-align: center;
+}
+.alinhar{
+    display: flex;
+    padding: 0 20%;
+}
+.player, .inimigo{
+    width: 50%;
+}
+.inimigo{
+    text-align: right;
+}
+.player img, .inimigo img{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    opacity: 0.2;
+}
